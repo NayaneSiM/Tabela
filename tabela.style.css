@@ -1,0 +1,35 @@
+.periodic-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.periodic-table caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.periodic-table ,
+.periodic-table td {
+    border: 2px black;
+    padding: 10px;
+    text-align: center;
+}
+
+.periodic-table th {
+    font-weight: bold;
+}
+
+.periodic-table th:first-child,
+.periodic-table td:first-child {
+    font-weight: normal;
+    background-color: white;
+}
+
+.periodic-table tbody th:first-child {
+    font-weight: bold;
+
+}
+.caption {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
